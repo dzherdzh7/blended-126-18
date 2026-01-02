@@ -55,6 +55,10 @@ img {
 
 /* HEADER */
 
+.page-header {
+  padding: 24px 0;
+}
+
 .header-container {
   display: flex;
 
@@ -67,11 +71,14 @@ img {
   width: 44px;
   height: auto;
 }
+.header-nav {
+  margin-left: 60px;
+}
 
 .header-nav-list {
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 25px;
 }
 
 .header-nav-link {
@@ -85,7 +92,13 @@ img {
   line-height: 129%;
   text-transform: uppercase;
   color: #fcf9f9;
-  
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: auto; /* КЛЮЧОВЕ */
 }
 
 .social-list {
@@ -93,13 +106,15 @@ img {
   align-items: center;
   gap: 16px;
 }
-.phone-link { 
-  border: 1px solid rgba(252, 249, 249, 0.1);
-border-radius: 15px;
-padding: 14px 28px;
-width: 193px;
-height: 48px;
-
+.phone-link {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  
+  /* line-height: 20px; */ 
+  line-height: 143%;
+  text-transform: uppercase;
+  color: #fcf9f9;
 }
 /* HEADER */
 /* ===== SUBHEADINGS / MEDIUM TEXT ===== */
